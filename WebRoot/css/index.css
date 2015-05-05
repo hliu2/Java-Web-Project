@@ -1,0 +1,141 @@
+@CHARSET "iso-8859-1";
+#container{
+	height:40%;
+	width:100%; 
+}
+#content{
+    height:60%;
+
+}
+.TabbedPanelsTabGroup {
+	margin: 0 auto;
+	;
+	padding: 0px;
+	background-color: #F90;
+	color: #FFF;
+	font-size: large;
+}
+.TabbedPanelsTab {
+	position: relative;
+	top: 1px;
+	float: left;
+	padding: 4px 10px;
+	margin: 0px 1px 0px 0px;
+	font: bold 0.7em sans-serif;
+	background-color: #FC3;
+	list-style: none;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #999;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-size: large;
+}
+
+/* This selector is an example of how to change the appearnce of a tab button
+ * container as the mouse enters it. The class "TabbedPanelsTabHover" is
+ * programatically added and removed from the tab element as the mouse enters
+ * and exits the container.
+ */
+.TabbedPanelsTabHover {
+	background-color: #CCC;
+}
+.TabbedPanelsTabSelected {
+	background-color: #FFF;
+	border-bottom: 1px solid #EEE;
+	font-family: sans-serif;
+	color: #F90;
+	font-size: large;
+}
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+}
+.TabbedPanelsContentGroup {
+	clear: both;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	background-color: #F90;
+}
+.TabbedPanelsContent {
+	overflow: hidden;
+	padding: 4px;
+	background-color: #FFF;
+}
+.TabbedPanelsContentVisible {
+	background-color: #FFF;
+	font-size: large;
+	box-sizing: content-box;
+}
+.VTabbedPanels {
+	overflow: hidden;
+	zoom: 1;
+}
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float: left;
+	width: 10em;
+	height: 20em;
+	background-color: #EEE;
+	position: relative;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+}
+.VTabbedPanels .TabbedPanelsTab {
+	float: none;
+	 margin:0 auto;	;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.VTabbedPanels .TabbedPanelsTabSelected {
+	background-color: #EEE;
+	border-bottom: solid 1px #999;
+}
+.VTabbedPanels .TabbedPanelsContentGroup {
+	clear: none;
+	float: left;
+	padding: 0px;
+	width: 30em;
+	height: 30em;
+}
+
+/* Styles for Printing */
+@media print {
+.TabbedPanels {
+	overflow: visible !important;
+}
+.TabbedPanelsContentGroup {
+	display: block !important;
+	overflow: visible !important;
+	height: auto !important;
+}
+.TabbedPanelsContent {
+	overflow: visible !important;
+	display: block !important;
+	clear:both !important;
+}
+.TabbedPanelsTab {
+	 overflow: visible !important;
+	 display: block !important;
+	 clear:both !important;
+}
+}
+.middle {
+	font-size: large;
+}
+.TabbedPanelsContent h1 {
+	font-size: xx-large;
+}
+.content{
+	width:80%;
+	height:150px;
+	margin-left:auto;
+	margin-right:auto;
+	}
