@@ -8,7 +8,7 @@ This an airline reservation system which users can search one-way or round trip 
 
 ## Credits
 * Worcester Polytechnic Institute (WPI) Design of Software Systems (Professor Nelson)
-* I(Hai Liu) am responsible for whole Java backend classes.
+* I am responsible for whole backend Java classes.
 * Naihui Wang and Yu Tian are responsible for front end JSP and JavaScript part. 
-
+* Database server is setup by Professor, and we access the database by Http post and get. 
 
