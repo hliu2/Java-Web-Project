@@ -1,9 +1,14 @@
 # Java Web Project
 
-* An airline System which users can search one-way or round trip flights. They can also select direct, 1 stop or 2 stop flights. They can specify taking off time and landing time. They can also sort tickets by price, flight time and total time. Finally they can buy one or more tickets.
+## Introduction 
+This an airline reservation system which users can search one-way or round trip flights. They can select direct, 1 stop or 2 stop flights. They can specify taking off time and landing time. They can also sort tickets by price, flight time and total time. Finally they can buy one or more tickets.
 
 ## Demo 
 * https://www.youtube.com/watch?v=DNTPNqd0Rf0
 
- In this project, I worte the whole backend java class.  
+## Credits
+* Worcester Polytechnic Institute (WPI) Design of Software Systems (Professor Nelson)
+* I(Hai Liu) am responsible for whole Java backend classes.
+* Naihui Wang and Yu Tian are responsible for front end JSP and JavaScript part. 
+
 
