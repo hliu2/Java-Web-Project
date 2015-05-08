@@ -7,7 +7,8 @@ This is an airline reservation system which users can search one-way or round tr
 * https://www.youtube.com/watch?v=DNTPNqd0Rf0
 
 ## Technologies used
-* Java EE, Multithreading, DOM, XML, Servlet, JSP, JavaScript, Html, Tomcat, Singleton design pattern        
+* Java EE, Multithreading, DOM, XML, Servlet, JSP, JavaScript, Html, Tomcat, Singleton design pattern    
+
 ## Credits
 * Worcester Polytechnic Institute (WPI) Design of Software Systems (Professor Nelson)
 * I am responsible for whole backend Java classes.
